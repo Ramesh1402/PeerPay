@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C42A5ABABF0051875C /* PeerPayApp.swift */; };
+		485268C72A5ABABF0051875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C62A5ABABF0051875C /* ContentView.swift */; };
+		485268C92A5ABAC00051875C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485268C82A5ABAC00051875C /* Assets.xcassets */; };
+		485268CC2A5ABAC00051875C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485268CB2A5ABAC00051875C /* Preview Assets.xcassets */; };
+		485268D62A5ABAC00051875C /* PeerPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268D52A5ABAC00051875C /* PeerPayTests.swift */; };
+		485268E02A5ABAC00051875C /* PeerPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268DF2A5ABAC00051875C /* PeerPayUITests.swift */; };
+		485268E22A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485268D22A5ABAC00051875C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485268B92A5ABABF0051875C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485268C02A5ABABF0051875C;
+			remoteInfo = PeerPay;
+		};
+		485268DC2A5ABAC00051875C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485268B92A5ABABF0051875C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485268C02A5ABABF0051875C;
+			remoteInfo = PeerPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485268C12A5ABABF0051875C /* PeerPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485268C42A5ABABF0051875C /* PeerPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayApp.swift; sourceTree = "<group>"; };
+		485268C62A5ABABF0051875C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		485268C82A5ABAC00051875C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485268CB2A5ABAC00051875C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		485268D12A5ABAC00051875C /* PeerPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485268D52A5ABAC00051875C /* PeerPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayTests.swift; sourceTree = "<group>"; };
+		485268DB2A5ABAC00051875C /* PeerPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485268DF2A5ABAC00051875C /* PeerPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayUITests.swift; sourceTree = "<group>"; };
+		485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485268BE2A5ABABF0051875C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485268CE2A5ABAC00051875C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485268D82A5ABAC00051875C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485268B82A5ABABF0051875C = {
+			isa = PBXGroup;
+			children = (
+				485268C32A5ABABF0051875C /* PeerPay */,
+				485268D42A5ABAC00051875C /* PeerPayTests */,
+				485268DE2A5ABAC00051875C /* PeerPayUITests */,
+				485268C22A5ABABF0051875C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485268C22A5ABABF0051875C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485268C12A5ABABF0051875C /* PeerPay.app */,
+				485268D12A5ABAC00051875C /* PeerPayTests.xctest */,
+				485268DB2A5ABAC00051875C /* PeerPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485268C32A5ABABF0051875C /* PeerPay */ = {
+			isa = PBXGroup;
+			children = (
+				485268C42A5ABABF0051875C /* PeerPayApp.swift */,
+				485268C62A5ABABF0051875C /* ContentView.swift */,
+				485268C82A5ABAC00051875C /* Assets.xcassets */,
+				485268CA2A5ABAC00051875C /* Preview Content */,
+			);
+			path = PeerPay;
+			sourceTree = "<group>";
+		};
+		485268CA2A5ABAC00051875C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				485268CB2A5ABAC00051875C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		485268D42A5ABAC00051875C /* PeerPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				485268D52A5ABAC00051875C /* PeerPayTests.swift */,
+			);
+			path = PeerPayTests;
+			sourceTree = "<group>";
+		};
+		485268DE2A5ABAC00051875C /* PeerPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485268DF2A5ABAC00051875C /* PeerPayUITests.swift */,
+				485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */,
+			);
+			path = PeerPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485268C02A5ABABF0051875C /* PeerPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485268E52A5ABAC00051875C /* Build configuration list for PBXNativeTarget "PeerPay" */;
+			buildPhases = (
+				485268BD2A5ABABF0051875C /* Sources */,
+				485268BE2A5ABABF0051875C /* Frameworks */,
+				485268BF2A5ABABF0051875C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeerPay;
+			productName = PeerPay;
+			productReference = 485268C12A5ABABF0051875C /* PeerPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485268D02A5ABAC00051875C /* PeerPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485268E82A5ABAC00051875C /* Build configuration list for PBXNativeTarget "PeerPayTests" */;
+			buildPhases = (
+				485268CD2A5ABAC00051875C /* Sources */,
+				485268CE2A5ABAC00051875C /* Frameworks */,
+				485268CF2A5ABAC00051875C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485268D32A5ABAC00051875C /* PBXTargetDependency */,
+			);
+			name = PeerPayTests;
+			productName = PeerPayTests;
+			productReference = 485268D12A5ABAC00051875C /* PeerPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		485268DA2A5ABAC00051875C /* PeerPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485268EB2A5ABAC00051875C /* Build configuration list for PBXNativeTarget "PeerPayUITests" */;
+			buildPhases = (
+				485268D72A5ABAC00051875C /* Sources */,
+				485268D82A5ABAC00051875C /* Frameworks */,
+				485268D92A5ABAC00051875C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485268DD2A5ABAC00051875C /* PBXTargetDependency */,
+			);
+			name = PeerPayUITests;
+			productName = PeerPayUITests;
+			productReference = 485268DB2A5ABAC00051875C /* PeerPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485268B92A5ABABF0051875C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					485268C02A5ABABF0051875C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					485268D02A5ABAC00051875C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 485268C02A5ABABF0051875C;
+					};
+					485268DA2A5ABAC00051875C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 485268C02A5ABABF0051875C;
+					};
+				};
+			};
+			buildConfigurationList = 485268BC2A5ABABF0051875C /* Build configuration list for PBXProject "PeerPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485268B82A5ABABF0051875C;
+			productRefGroup = 485268C22A5ABABF0051875C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485268C02A5ABABF0051875C /* PeerPay */,
+				485268D02A5ABAC00051875C /* PeerPayTests */,
+				485268DA2A5ABAC00051875C /* PeerPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485268BF2A5ABABF0051875C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485268CC2A5ABAC00051875C /* Preview Assets.xcassets in Resources */,
+				485268C92A5ABAC00051875C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485268CF2A5ABAC00051875C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485268D92A5ABAC00051875C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485268BD2A5ABABF0051875C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485268C72A5ABABF0051875C /* ContentView.swift in Sources */,
+				485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485268CD2A5ABAC00051875C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485268D62A5ABAC00051875C /* PeerPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485268D72A5ABAC00051875C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485268E02A5ABAC00051875C /* PeerPayUITests.swift in Sources */,
+				485268E22A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485268D32A5ABAC00051875C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485268C02A5ABABF0051875C /* PeerPay */;
+			targetProxy = 485268D22A5ABAC00051875C /* PBXContainerItemProxy */;
+		};
+		485268DD2A5ABAC00051875C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485268C02A5ABABF0051875C /* PeerPay */;
+			targetProxy = 485268DC2A5ABAC00051875C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		485268E32A5ABAC00051875C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		485268E42A5ABAC00051875C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485268E62A5ABAC00051875C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PeerPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.PeerPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485268E72A5ABAC00051875C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PeerPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.PeerPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		485268E92A5ABAC00051875C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.PeerPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeerPay";
+			};
+			name = Debug;
+		};
+		485268EA2A5ABAC00051875C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.PeerPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeerPay";
+			};
+			name = Release;
+		};
+		485268EC2A5ABAC00051875C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.PeerPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerPay;
+			};
+			name = Debug;
+		};
+		485268ED2A5ABAC00051875C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.PeerPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485268BC2A5ABABF0051875C /* Build configuration list for PBXProject "PeerPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485268E32A5ABAC00051875C /* Debug */,
+				485268E42A5ABAC00051875C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485268E52A5ABAC00051875C /* Build configuration list for PBXNativeTarget "PeerPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485268E62A5ABAC00051875C /* Debug */,
+				485268E72A5ABAC00051875C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485268E82A5ABAC00051875C /* Build configuration list for PBXNativeTarget "PeerPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485268E92A5ABAC00051875C /* Debug */,
+				485268EA2A5ABAC00051875C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485268EB2A5ABAC00051875C /* Build configuration list for PBXNativeTarget "PeerPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485268EC2A5ABAC00051875C /* Debug */,
+				485268ED2A5ABAC00051875C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485268B92A5ABABF0051875C /* Project object */;
+}
