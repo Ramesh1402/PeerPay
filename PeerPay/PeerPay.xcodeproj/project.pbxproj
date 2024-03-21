@@ -14,6 +14,11 @@
 		485268D62A5ABAC00051875C /* PeerPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268D52A5ABAC00051875C /* PeerPayTests.swift */; };
 		485268E02A5ABAC00051875C /* PeerPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268DF2A5ABAC00051875C /* PeerPayUITests.swift */; };
 		485268E22A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */; };
+		48537FF02BAC701F0064FFE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */; };
+		48537FF22BAC74610064FFE6 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 48537FF12BAC74610064FFE6 /* FacebookBasics */; };
+		48537FF42BAC74610064FFE6 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 48537FF32BAC74610064FFE6 /* FacebookCore */; };
+		48537FF62BAC748A0064FFE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */; };
+		48DDEEDD2BAAD4A0002F050F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 48DDEEDC2BAAD4A0002F050F /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,9 @@
 		485268DB2A5ABAC00051875C /* PeerPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		485268DF2A5ABAC00051875C /* PeerPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayUITests.swift; sourceTree = "<group>"; };
 		485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48DDEEDE2BAAD5D4002F050F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DDEEDD2BAAD4A0002F050F /* FacebookLogin in Frameworks */,
+				48537FF42BAC74610064FFE6 /* FacebookCore in Frameworks */,
+				48537FF22BAC74610064FFE6 /* FacebookBasics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +105,9 @@
 		485268C32A5ABABF0051875C /* PeerPay */ = {
 			isa = PBXGroup;
 			children = (
+				48DDEEDE2BAAD5D4002F050F /* Info.plist */,
+				48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */,
+				48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */,
 				485268C42A5ABABF0051875C /* PeerPayApp.swift */,
 				485268C62A5ABABF0051875C /* ContentView.swift */,
 				485268C82A5ABAC00051875C /* Assets.xcassets */,
@@ -143,6 +157,11 @@
 			dependencies = (
 			);
 			name = PeerPay;
+			packageProductDependencies = (
+				48DDEEDC2BAAD4A0002F050F /* FacebookLogin */,
+				48537FF12BAC74610064FFE6 /* FacebookBasics */,
+				48537FF32BAC74610064FFE6 /* FacebookCore */,
+			);
 			productName = PeerPay;
 			productReference = 485268C12A5ABABF0051875C /* PeerPay.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 485268B82A5ABABF0051875C;
+			packageReferences = (
+				48DDEEDB2BAAD4A0002F050F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 485268C22A5ABABF0051875C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48537FF02BAC701F0064FFE6 /* AppDelegate.swift in Sources */,
 				485268C72A5ABABF0051875C /* ContentView.swift in Sources */,
 				485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */,
+				48537FF62BAC748A0064FFE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +448,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PeerPay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerPay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +477,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PeerPay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerPay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +608,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48DDEEDB2BAAD4A0002F050F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48537FF12BAC74610064FFE6 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48DDEEDB2BAAD4A0002F050F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		48537FF32BAC74610064FFE6 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48DDEEDB2BAAD4A0002F050F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		48DDEEDC2BAAD4A0002F050F /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48DDEEDB2BAAD4A0002F050F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 485268B92A5ABABF0051875C /* Project object */;
 }
