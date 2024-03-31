@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C42A5ABABF0051875C /* PeerPayApp.swift */; };
-		485268C72A5ABABF0051875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C62A5ABABF0051875C /* ContentView.swift */; };
+		485268C72A5ABABF0051875C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C62A5ABABF0051875C /* LoginView.swift */; };
 		485268C92A5ABAC00051875C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485268C82A5ABAC00051875C /* Assets.xcassets */; };
 		485268CC2A5ABAC00051875C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485268CB2A5ABAC00051875C /* Preview Assets.xcassets */; };
 		485268D62A5ABAC00051875C /* PeerPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268D52A5ABAC00051875C /* PeerPayTests.swift */; };
@@ -18,6 +18,8 @@
 		48537FF22BAC74610064FFE6 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 48537FF12BAC74610064FFE6 /* FacebookBasics */; };
 		48537FF42BAC74610064FFE6 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 48537FF32BAC74610064FFE6 /* FacebookCore */; };
 		48537FF62BAC748A0064FFE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */; };
+		486304482BB858B000C6B4DD /* MobileNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486304472BB858B000C6B4DD /* MobileNumberView.swift */; };
+		48ADE3372BAD888800AC48A2 /* FacebookLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADE3362BAD888800AC48A2 /* FacebookLoginService.swift */; };
 		48DDEEDD2BAAD4A0002F050F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 48DDEEDC2BAAD4A0002F050F /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +43,7 @@
 /* Begin PBXFileReference section */
 		485268C12A5ABABF0051875C /* PeerPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485268C42A5ABABF0051875C /* PeerPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayApp.swift; sourceTree = "<group>"; };
-		485268C62A5ABABF0051875C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		485268C62A5ABABF0051875C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		485268C82A5ABAC00051875C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		485268CB2A5ABAC00051875C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		485268D12A5ABAC00051875C /* PeerPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,8 @@
 		485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		486304472BB858B000C6B4DD /* MobileNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberView.swift; sourceTree = "<group>"; };
+		48ADE3362BAD888800AC48A2 /* FacebookLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginService.swift; sourceTree = "<group>"; };
 		48DDEEDE2BAAD5D4002F050F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,13 +109,15 @@
 		485268C32A5ABABF0051875C /* PeerPay */ = {
 			isa = PBXGroup;
 			children = (
+				48ADE3352BAD87CB00AC48A2 /* Services */,
 				48DDEEDE2BAAD5D4002F050F /* Info.plist */,
 				48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */,
 				48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */,
 				485268C42A5ABABF0051875C /* PeerPayApp.swift */,
-				485268C62A5ABABF0051875C /* ContentView.swift */,
+				485268C62A5ABABF0051875C /* LoginView.swift */,
 				485268C82A5ABAC00051875C /* Assets.xcassets */,
 				485268CA2A5ABAC00051875C /* Preview Content */,
+				486304472BB858B000C6B4DD /* MobileNumberView.swift */,
 			);
 			path = PeerPay;
 			sourceTree = "<group>";
@@ -139,6 +145,14 @@
 				485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */,
 			);
 			path = PeerPayUITests;
+			sourceTree = "<group>";
+		};
+		48ADE3352BAD87CB00AC48A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48ADE3362BAD888800AC48A2 /* FacebookLoginService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				48537FF02BAC701F0064FFE6 /* AppDelegate.swift in Sources */,
-				485268C72A5ABABF0051875C /* ContentView.swift in Sources */,
+				485268C72A5ABABF0051875C /* LoginView.swift in Sources */,
+				48ADE3372BAD888800AC48A2 /* FacebookLoginService.swift in Sources */,
 				485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */,
 				48537FF62BAC748A0064FFE6 /* SceneDelegate.swift in Sources */,
+				486304482BB858B000C6B4DD /* MobileNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

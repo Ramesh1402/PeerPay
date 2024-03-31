@@ -2,25 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleURLTypes</key>
-    <array>
-      <dict>
-      <key>CFBundleURLSchemes</key>
-      <array>
-        <string>386112127580021</string>
-      </array>
-      </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>386112127580021</string>
-    <key>FacebookClientToken</key>
-    <string>a7ba45fff2fb59832b9880a3986036bc</string>
-    <key>FacebookDisplayName</key>
-    <string>PeerPay</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>fbapi</string>
-      <string>fb-messenger-share-api</string>
-    </array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb386112127580021</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>386112127580021</string>
+	<key>FacebookClientToken</key>
+	<string>a7ba45fff2fb59832b9880a3986036bc</string>
+	<key>FacebookDisplayName</key>
+	<string>PeerPay</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
 </dict>
 </plist>
