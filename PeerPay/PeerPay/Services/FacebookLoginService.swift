@@ -47,8 +47,3 @@ class FacebookLoginService: ObservableObject {
         }
     }
 }
-
-struct FacebookUser {
-    let name: String
-    let id: String
-}

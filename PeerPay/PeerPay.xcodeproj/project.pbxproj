@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484A1F032BB96AD9001E99AC /* MobileNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A1F022BB96AD9001E99AC /* MobileNumberViewModel.swift */; };
 		485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C42A5ABABF0051875C /* PeerPayApp.swift */; };
 		485268C72A5ABABF0051875C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485268C62A5ABABF0051875C /* LoginView.swift */; };
 		485268C92A5ABAC00051875C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485268C82A5ABAC00051875C /* Assets.xcassets */; };
@@ -19,6 +20,10 @@
 		48537FF42BAC74610064FFE6 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 48537FF32BAC74610064FFE6 /* FacebookCore */; };
 		48537FF62BAC748A0064FFE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */; };
 		486304482BB858B000C6B4DD /* MobileNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486304472BB858B000C6B4DD /* MobileNumberView.swift */; };
+		4897C6B82BBA29530027E1B0 /* FacebookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897C6B72BBA29530027E1B0 /* FacebookUser.swift */; };
+		4897C6BA2BBA29770027E1B0 /* EditTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897C6B92BBA29770027E1B0 /* EditTextField.swift */; };
+		4897C6BE2BBA2A030027E1B0 /* EditTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897C6BD2BBA2A030027E1B0 /* EditTextFieldView.swift */; };
+		489F967D2BBC025F000CC476 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F967C2BBC025F000CC476 /* DashboardView.swift */; };
 		48ADE3372BAD888800AC48A2 /* FacebookLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADE3362BAD888800AC48A2 /* FacebookLoginService.swift */; };
 		48DDEEDD2BAAD4A0002F050F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 48DDEEDC2BAAD4A0002F050F /* FacebookLogin */; };
 /* End PBXBuildFile section */
@@ -41,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		484A1F022BB96AD9001E99AC /* MobileNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberViewModel.swift; sourceTree = "<group>"; };
 		485268C12A5ABABF0051875C /* PeerPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485268C42A5ABABF0051875C /* PeerPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerPayApp.swift; sourceTree = "<group>"; };
 		485268C62A5ABABF0051875C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,10 @@
 		48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		486304472BB858B000C6B4DD /* MobileNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberView.swift; sourceTree = "<group>"; };
+		4897C6B72BBA29530027E1B0 /* FacebookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUser.swift; sourceTree = "<group>"; };
+		4897C6B92BBA29770027E1B0 /* EditTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextField.swift; sourceTree = "<group>"; };
+		4897C6BD2BBA2A030027E1B0 /* EditTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextFieldView.swift; sourceTree = "<group>"; };
+		489F967C2BBC025F000CC476 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		48ADE3362BAD888800AC48A2 /* FacebookLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginService.swift; sourceTree = "<group>"; };
 		48DDEEDE2BAAD5D4002F050F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,15 +119,16 @@
 		485268C32A5ABABF0051875C /* PeerPay */ = {
 			isa = PBXGroup;
 			children = (
+				4897C6BC2BBA29CF0027E1B0 /* Views */,
+				4897C6BB2BBA29C10027E1B0 /* ViewMoelds */,
+				4897C6B62BBA29370027E1B0 /* Models */,
 				48ADE3352BAD87CB00AC48A2 /* Services */,
 				48DDEEDE2BAAD5D4002F050F /* Info.plist */,
 				48537FEF2BAC701F0064FFE6 /* AppDelegate.swift */,
 				48537FF52BAC748A0064FFE6 /* SceneDelegate.swift */,
 				485268C42A5ABABF0051875C /* PeerPayApp.swift */,
-				485268C62A5ABABF0051875C /* LoginView.swift */,
 				485268C82A5ABAC00051875C /* Assets.xcassets */,
 				485268CA2A5ABAC00051875C /* Preview Content */,
-				486304472BB858B000C6B4DD /* MobileNumberView.swift */,
 			);
 			path = PeerPay;
 			sourceTree = "<group>";
@@ -145,6 +156,34 @@
 				485268E12A5ABAC00051875C /* PeerPayUITestsLaunchTests.swift */,
 			);
 			path = PeerPayUITests;
+			sourceTree = "<group>";
+		};
+		4897C6B62BBA29370027E1B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4897C6B72BBA29530027E1B0 /* FacebookUser.swift */,
+				4897C6B92BBA29770027E1B0 /* EditTextField.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4897C6BB2BBA29C10027E1B0 /* ViewMoelds */ = {
+			isa = PBXGroup;
+			children = (
+				484A1F022BB96AD9001E99AC /* MobileNumberViewModel.swift */,
+			);
+			path = ViewMoelds;
+			sourceTree = "<group>";
+		};
+		4897C6BC2BBA29CF0027E1B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				485268C62A5ABABF0051875C /* LoginView.swift */,
+				486304472BB858B000C6B4DD /* MobileNumberView.swift */,
+				4897C6BD2BBA2A030027E1B0 /* EditTextFieldView.swift */,
+				489F967C2BBC025F000CC476 /* DashboardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		48ADE3352BAD87CB00AC48A2 /* Services */ = {
@@ -293,11 +332,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4897C6BE2BBA2A030027E1B0 /* EditTextFieldView.swift in Sources */,
+				484A1F032BB96AD9001E99AC /* MobileNumberViewModel.swift in Sources */,
 				48537FF02BAC701F0064FFE6 /* AppDelegate.swift in Sources */,
 				485268C72A5ABABF0051875C /* LoginView.swift in Sources */,
 				48ADE3372BAD888800AC48A2 /* FacebookLoginService.swift in Sources */,
+				4897C6BA2BBA29770027E1B0 /* EditTextField.swift in Sources */,
+				489F967D2BBC025F000CC476 /* DashboardView.swift in Sources */,
 				485268C52A5ABABF0051875C /* PeerPayApp.swift in Sources */,
 				48537FF62BAC748A0064FFE6 /* SceneDelegate.swift in Sources */,
+				4897C6B82BBA29530027E1B0 /* FacebookUser.swift in Sources */,
 				486304482BB858B000C6B4DD /* MobileNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
